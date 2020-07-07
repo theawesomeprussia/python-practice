@@ -22,3 +22,6 @@ y = 1
 while y <= times:
   print(word)
   y = y+1
+  
+for count in range(0, 5, 1):
+  print(str(count))
