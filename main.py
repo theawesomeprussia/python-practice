@@ -1,22 +1,16 @@
-# Lists
+#Functions
 
-shark = ['great white', 'mako','duck', 'ur mom', 'pineapple']
-numbers = [1,2,3,4, "how many niggers are in my store"]
+def f(x):
+  answer = ((x**3 - 4)/(5*x)) + 7
+  return answer
 
-print(shark)
-print(numbers)
+putin = int(input("What do you want to put into f(x)? "))
+print(f(putin))
 
-fruit = ['apple', 'pear', 'peach', 'banana', 'pineapple']
 
-for x in range(0, len(fruit), 1):
-  print(fruit[x])
+def f(h):
+  solution = ((h**7 + 6)/(7*h))
+  return solution
 
-for i in range(0, len(fruit), 1):
-  fruit[i] = fruit[i] + "'s are great!"
-
-print(fruit)
-
-word = 'What do?'
-letters = list(word)
-
-print(letters)
+ans = int(input("What do you want to put into f(h)? "))
+print(f(ans))
